@@ -21,8 +21,8 @@
             "sources" : [
                 {
                     "type" : "git",
-                    "tag" : "1.12.0",
-                    "commit" : "02cfe0f148d95130209ef486a4dffca239766780",
+                    "tag" : "1.12.1",
+                    "commit" : "bca668457c6f884597cd93c0ce181788f92822c0",
                     "url" : "https://github.com/maoschanz/dynamic-wallpaper-editor.git"
                 }
             ]
