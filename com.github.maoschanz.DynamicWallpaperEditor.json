@@ -14,18 +14,14 @@
 		"--talk-name=ca.desrt.dconf",
 		"--env=DCONF_USER_CONFIG_DIR=.config/dconf"
 	],
-	"modules" : [
-		{
-			"name" : "dynamic-wallpaper-editor",
-			"buildsystem" : "meson",
-			"sources" : [
-				{
-					"type" : "git",
-					"tag" : "2.3",
-					"commit" : "6ff3fe30e8228e86eac03681b0d9ee1cb7fbca48",
-					"url" : "https://github.com/maoschanz/dynamic-wallpaper-editor.git"
-				}
-			]
-		}
-	]
+	"modules" : [{
+		"name" : "dynamic-wallpaper-editor",
+		"buildsystem" : "meson",
+		"sources" : [{
+			"type" : "git",
+			"tag" : "2.4",
+			"commit" : "802dae2f33a5c046059a3bee578cfc5c471dded9",
+			"url" : "https://github.com/maoschanz/dynamic-wallpaper-editor.git"
+		}]
+	}]
 }
