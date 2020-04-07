@@ -1,7 +1,7 @@
 {
 	"app-id" : "com.github.maoschanz.DynamicWallpaperEditor",
 	"runtime" : "org.gnome.Platform",
-	"runtime-version" : "3.34",
+	"runtime-version" : "3.36",
 	"sdk" : "org.gnome.Sdk",
 	"command" : "dynamic-wallpaper-editor",
 	"finish-args" : [
@@ -9,10 +9,7 @@
 		"--socket=x11",
 		"--socket=wayland",
 		"--filesystem=home:ro",
-		"--filesystem=xdg-run/dconf",
-		"--filesystem=~/.config/dconf:ro",
-		"--talk-name=ca.desrt.dconf",
-		"--env=DCONF_USER_CONFIG_DIR=.config/dconf"
+		"--metadata=X-DConf=migrate-path=/com/github/maoschanz/DynamicWallpaperEditor/"
 	],
 	"modules" : [{
 		"name" : "dynamic-wallpaper-editor",
