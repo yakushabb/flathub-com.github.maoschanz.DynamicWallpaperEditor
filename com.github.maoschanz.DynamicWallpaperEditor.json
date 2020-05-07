@@ -19,8 +19,8 @@
 		"buildsystem" : "meson",
 		"sources" : [{
 			"type" : "git",
-			"tag" : "2.4",
-			"commit" : "802dae2f33a5c046059a3bee578cfc5c471dded9",
+			"tag" : "2.5",
+			"commit" : "bb0c49805698e9f76d55ba1a5f2d6bfbd9357b77",
 			"url" : "https://github.com/maoschanz/dynamic-wallpaper-editor.git"
 		}]
 	}]
