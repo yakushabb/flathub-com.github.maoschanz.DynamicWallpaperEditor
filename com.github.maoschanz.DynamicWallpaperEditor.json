@@ -8,20 +8,17 @@
 		"--share=ipc",
 		"--socket=x11",
 		"--socket=wayland",
-		"--filesystem=home:ro",
-		"--filesystem=xdg-run/dconf",
-		"--filesystem=~/.config/dconf:ro",
-		"--talk-name=ca.desrt.dconf",
-		"--env=DCONF_USER_CONFIG_DIR=.config/dconf"
+		"--filesystem=home:ro"
 	],
 	"modules" : [{
 		"name" : "dynamic-wallpaper-editor",
 		"buildsystem" : "meson",
 		"sources" : [{
 			"type" : "git",
-			"tag" : "2.5",
-			"commit" : "bb0c49805698e9f76d55ba1a5f2d6bfbd9357b77",
+			"tag" : "2.7",
+			"commit" : "1973696f339673ad31b753cc50bc3c65c4fc66a7",
 			"url" : "https://github.com/maoschanz/dynamic-wallpaper-editor.git"
 		}]
 	}]
 }
+
