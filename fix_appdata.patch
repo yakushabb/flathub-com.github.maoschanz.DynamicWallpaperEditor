@@ -1,0 +1,24 @@
+diff --git a/data/com.github.maoschanz.DynamicWallpaperEditor.appdata.xml.in b/data/com.github.maoschanz.DynamicWallpaperEditor.appdata.xml.in
+index 732dcdb..8ced627 100644
+--- a/data/com.github.maoschanz.DynamicWallpaperEditor.appdata.xml.in
++++ b/data/com.github.maoschanz.DynamicWallpaperEditor.appdata.xml.in
+@@ -5,8 +5,7 @@
+   <project_license>GPL-3.0-or-later</project_license>
+ 
+   <name>Dynamic Wallpaper Editor</name>
+-  <summary>Create or edit XML dynamic wallpapers ("background slideshows") for
+-  the GNOME desktop</summary>
++  <summary>Create or edit XML dynamic wallpapers ("background slideshows") for the GNOME desktop</summary>
+   <description>
+     <p>
+       Dynamic Wallpaper Editor is a simple utility to create or edit dynamic
+@@ -121,6 +120,9 @@
+   <url type="donation">https://paypal.me/maoschannz</url>
+   <!-- That's my name, don't translate it -->
+   <developer_name>Romain F. T.</developer_name>
++  <developer id="io.github.maoschanz">
++    <name translate="no">Romain F. T.</name>
++  </developer>
+   <update_contact>rrroschan@gmail.com</update_contact>
+ 
+   <translation type="gettext">dynamic-wallpaper-editor</translation>

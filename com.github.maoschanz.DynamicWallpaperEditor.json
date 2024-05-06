@@ -1,7 +1,7 @@
 {
 	"app-id" : "com.github.maoschanz.DynamicWallpaperEditor",
 	"runtime" : "org.gnome.Platform",
-	"runtime-version" : "40",
+	"runtime-version" : "46",
 	"sdk" : "org.gnome.Sdk",
 	"command" : "dynamic-wallpaper-editor",
 	"finish-args" : [
@@ -10,6 +10,18 @@
 		"--socket=wayland",
 		"--filesystem=home:ro"
 	],
+    "cleanup": [
+        "/include",
+        "/lib/pkgconfig",
+        "/man",
+        "/share/doc",
+        "/share/gtk-doc",
+        "/share/man",
+        "/share/pkgconfig",
+        "/share/vala",
+        "*.la",
+        "*.a"
+    ],
 	"modules" : [{
 		"name" : "dynamic-wallpaper-editor",
 		"buildsystem" : "meson",
@@ -18,6 +30,10 @@
 			"tag" : "2.7",
 			"commit" : "1973696f339673ad31b753cc50bc3c65c4fc66a7",
 			"url" : "https://github.com/maoschanz/dynamic-wallpaper-editor.git"
+		},
+		{
+			"type" : "patch",
+			"path" : "fix_appdata.patch"
 		}]
 	}]
 }
